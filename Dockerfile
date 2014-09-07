@@ -38,7 +38,7 @@ RUN apt-get -qq update && \
     git submodule update --init && make install && \
     go get github.com/blevesearch/bleve-wiki-indexer && \
     mkdir /data && cd /data && \
-    git clone https://github.com/blevesearch/bleve.wiki.git # && \
+    git clone https://github.com/blevesearch/bleve.wiki.git && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # EXPOSE 8099
