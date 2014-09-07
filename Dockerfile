@@ -2,7 +2,7 @@
 # bleve-wiki-indexer Dockerfile
 # (see amazing http://www.blevesearch.com/)
 #
-# https://github.com/lgsd/docker-bleve-wiki-indexer
+# https://github.com/lgs/docker-bleve-wiki-indexer
 #
 # VERSION 0.1
 # 
