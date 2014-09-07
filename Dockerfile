@@ -23,7 +23,7 @@
 # 32-Ubuntu SMP Tue Feb 18 21:11:14 UTC 2014
 ###################################################
 
-FROM google/golang
+FROM google/golang:stable
 
 MAINTAINER Luca G. Soave <luca.soave@gmail.com>
 
