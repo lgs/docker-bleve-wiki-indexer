@@ -31,11 +31,10 @@ You can also build by forking/downloading the repo then run docker interactive l
     $ git clone https://github.com/lgs/docker-bleve-wiki-indexer && cd docker-bleve-wiki-indexer
     $ docker build -t lgsd/docker-bleve-wiki-indexer --rm=true .
     $ docker run -i -p 8099:8099 -t lgsd/docker-bleve-wiki-indexer bash
-    root@52fe5e02d8f9:/#
+    root@1c1532dec11f:/#
 
 Now proceed as before, running bleve-wiki-indexer from source directory ...
 
-    $ docker run -i -p 8099:8099 -t lgsd/docker-bleve-wiki-indexer bash
     root@1c1532dec11f:/# cd $GOPATH/src/github.com/blevesearch/bleve-wiki-indexer
     root@1c1532dec11f:/gopath/src/github.com/blevesearch/bleve-wiki-indexer# bleve-wiki-indexer -dir /data/bleve.wiki
     2016/01/24 17:41:42 Creating new index...
